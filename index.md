@@ -211,7 +211,45 @@ EXPOSE 3306
 ![image](https://user-images.githubusercontent.com/73367284/158703228-bcf8733a-6c78-40ae-85ce-a21fafddd1d9.png)
 
 
+<br/>
+<br/>
+<br/>
 
+
+
+## Automated Management and Upgrades for VMware Tanzu Application Service Deployments
+
+<img width="1660" alt="image" src="https://user-images.githubusercontent.com/73367284/158706446-3208cfe3-44f0-4954-8f85-d093e3a38c41.png">
+
+
+<br/>
+<br/>
+
+## Application Autoscaler  
+<img width="794" alt="image" src="https://user-images.githubusercontent.com/73367284/158706724-64b6ca64-7f0a-43f9-b8ea-aa4642a773e4.png">
+
+<br/>
+<br/>
+
+## BOSH was built for Cloud Foundry  
+
+
+![image](https://user-images.githubusercontent.com/73367284/158704927-080f0d51-1987-420e-a007-32acca625b45.png)
+
+BOSH is a project that unifies release engineering, deployment, and lifecycle management of small and large-scale cloud software. BOSH can provision and deploy software over hundreds of VMs. It also performs monitoring, failure recovery, and software updates with zero-to-minimal downtime.
+
+While BOSH was developed to deploy Cloud Foundry PaaS, it can also be used to deploy almost any other software (Hadoop, for instance). BOSH is particularly well-suited for large distributed systems. In addition, BOSH supports multiple Infrastructure as a Service (IaaS) providers like VMware vSphere, Google Cloud Platform, Amazon Web Services EC2, Microsoft Azure, OpenStack, and Alibaba Cloud. There is a Cloud Provider Interface (CPI) that enables users to extend BOSH to support additional IaaS providers such as Apache CloudStack and VirtualBox.
+
+<br/>
+
+
+![image](https://user-images.githubusercontent.com/73367284/158705252-169fd9e5-5e25-4e6e-8749-93e975587cef.png)
+
+
+
+
+<br/>
+<br/>
 
  -------
  
