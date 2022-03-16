@@ -14,6 +14,10 @@ VMware Tanzu Application Service is a modern application platform for enterprise
 
 <br/>
 
+
+
+<br/>
+
 -----
 
 ## Day 1 - The Developer Experience 
@@ -202,6 +206,12 @@ EXPOSE 3306
 <br/>
 <br/>
 <br/>
+
+## How does this differ from Cloud Foundry?
+![image](https://user-images.githubusercontent.com/73367284/158703228-bcf8733a-6c78-40ae-85ce-a21fafddd1d9.png)
+
+
+
 
  -------
  
