@@ -135,8 +135,6 @@ EXPOSE 3306
 
 <br/>
 
-<br/>
-
 ### However containers built using dockerfile are hard to productionize and scale 
 #### Tanzu can be an accelerator for enterprises on their app modernization journey
 
@@ -155,6 +153,25 @@ EXPOSE 3306
 
 ### Agile IT governance
 4. Ability to verify policy enforcements reinforces software compliance
+
+
+<br/>
+<br/>
+<br/>
+
+## VMware Tanzu provides comprehensive support for containers 
+
+![image](https://user-images.githubusercontent.com/73367284/158700970-c28cbc6e-27af-46b6-8845-a76d27d1380a.png)
+
+
+<br/>
+<br/>
+
+
+## Extend Custom Apps with Popular Backing Services 
+### Use the Open Service Broker API to manage the lifecycle of databases, caches, and more
+
+![image](https://user-images.githubusercontent.com/73367284/158701336-15d40150-ce4f-432b-9036-f9ee9b069386.png)
 
 
 
