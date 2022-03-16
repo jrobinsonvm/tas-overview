@@ -105,11 +105,56 @@ EXPOSE 3306
 
 ```
 
+<br/>
+<br/>
+<br/>
 
+
+### However containers built using dockerfile are hard to productionize and scale 
+
+#### When dev teams build images differently, they introduce vulnerabilities and complexity
 
 
 ![image](https://user-images.githubusercontent.com/73367284/158699415-c539e7c3-3f09-4921-a8f7-691ff219fa6e.png)
 
+
+### Image updates
+1. Hard to debug, fix and maintain non-standard images across the fleet
+
+### Security posture
+2. Challenging to keep container images free of vulnerabilities
+
+### Full stack container audits
+3. Hard to uniformly track container dependencies
+
+### IT governance
+4. Hard to reinforce software compliance
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+### However containers built using dockerfile are hard to productionize and scale 
+#### Tanzu can be an accelerator for enterprises on their app modernization journey
+
+
+![image](https://user-images.githubusercontent.com/73367284/158700379-ac2341d1-e710-49ce-9966-db2b79b95747.png)
+
+
+### Automated image updates
+1. Automated container re-base on new code commits, dependency and OS updates
+
+### Improved security posture
+2. Easy to track and patch containers with latest CVEs
+
+### Full stack container audits
+3. Auditing is a breeze with bundled container metadata 
+
+### Agile IT governance
+4. Ability to verify policy enforcements reinforces software compliance
 
 
 
