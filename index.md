@@ -195,6 +195,5 @@ EXPOSE 3306
 
  -------
  
-#### Install the Tanzu CLI 
  
-For more details see the offical [Tanzu Application Platform](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html)
+For more details see [Tanzu Application Service](https://tanzu.vmware.com/application-service)
