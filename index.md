@@ -1,19 +1,67 @@
-## Tanzu Application Platform - UnOfficial AirGapped Install Guide  
-### Quick & Dirty - Getting Started Guide
+## Tanzu Application Service - 
+### High Level Overview 
 
-VMware Tanzu Application Platform is a modular, application-aware platform that provides a rich set of developer tooling and a prepaved path to production to build and deploy software quickly and securely on any compliant public cloud or on-premises Kubernetes cluster.
+VMware Tanzu Application Service is an opinionated, application-aware platform that provides a rich set of developer tooling and a prepaved path to production to build and deploy software quickly and securely on any compliant public cloud or on-premises vCenter Data Center.
 
-Tanzu Application Platform simplifies workflows in both the inner loop and outer loop of Kubernetes-based app development:
 
-Inner Loop: The inner loop describes a developer’s local development environment where they code and test apps. The activities that take place in the inner loop include writing code, committing to a version control system, deploying to a development or staging environment, testing, and then making additional code changes.
+VMware Tanzu Application Service is a modern application platform for enterprises that want to continuously deliver and run microservices or traditional applications across clouds or on-premises.   
+[Read more...](https://tanzu.vmware.com/application-service)
 
-Outer Loop: The outer loop describes the steps to deploy apps to production and maintain them over time. For example, on a cloud-native platform, the outer loop includes activities such as building container images, adding container security, and configuring continuous integration (CI) and continuous delivery (CD) pipelines.
+<br/>
 
-VMware Tanzu Application Platform provides development teams a pre-paved path to production to get code running on any Kubernetes enabling security and scale. It is an application aware platform that is modular so teams can customize it based on their organization’s preferences. [Read more...](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html)
+# A modern runtime for microservices and traditional applications 
+ ![image](https://user-images.githubusercontent.com/73367284/158693192-1b5d6762-f88f-4d8c-ab57-d399344c50f8.png)
 
-# Install TAP in an AirGapped TKG Cluster 
+<br/>
 
-## Pre-requisites 
+-----
+
+## Day 1 - The Developer Experience 
+<br/>
+
+## cf push Automates Developer + Operator workflows 
+
+### Automation, not Support Tickets 
+
+![image](https://user-images.githubusercontent.com/73367284/158693716-e7fdd324-26da-4936-b027-ee2540e66c46.png)
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+
+![image](https://user-images.githubusercontent.com/73367284/158695941-ee0c3804-313d-4dcd-b57e-a6eb64c047e0.png)
+
+
+
+### So what happens after you execute the "cf push" cli command?: 
+1. Uploads your code
+2. Detects and installs required runtime and middleware (“Buildpacks”)
+3. Sets up a route (or URL)
+4. Creates a load balancing entry
+5. Creates SSL termination
+6. Creates health monitoring and logging subsystems
+7. Starts your app in a healthy state, with the desired number of instances
+8. Binds specified backing services
+
+<br/>
+
+
+
+## Let's Compare Deployment Tasks!
+### Once code is complete and tested, what do you have to do to get to prod? 
+
+
+![image](https://user-images.githubusercontent.com/73367284/158695526-b0db8e96-528f-4762-91d7-8e2599ba39e4.png)
+
+
  
  -------
  
