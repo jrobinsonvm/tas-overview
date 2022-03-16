@@ -53,6 +53,9 @@ VMware Tanzu Application Service is a modern application platform for enterprise
 
 <br/>
 
+<br/>
+
+<br/>
 
 
 ## Let's Compare Deployment Tasks!
@@ -62,7 +65,55 @@ VMware Tanzu Application Service is a modern application platform for enterprise
 ![image](https://user-images.githubusercontent.com/73367284/158695526-b0db8e96-528f-4762-91d7-8e2599ba39e4.png)
 
 
- 
+<br/>
+
+<br/>
+
+
+## Dockerfiles:  Typically the most common way developers get started with containers.
+
+
+###  1. It's a good starting point for most
+###  2. Descriptive file specification (YAML)
+###  3. It's pretty flexible
+
+<br/>
+
+
+```
+FROM somewhere/ubuntu
+MAINTAINER Anonymous Person <Anonymous.Person@email.com>
+
+ENV USER root
+ENV PASS aiPeekai0AeZ2meephoolais7doo1thu
+
+RUN \
+  apt-get update && \
+  apt-get -y install \
+          mysql-server-5.5 && \
+  rm -rf /var/lib/apt/lists/*
+
+COPY my.cnf /etc/mysql/my.cnf
+COPY start.sh start.sh
+
+VOLUME ["/var/lib/mysql"]
+
+RUN rm /usr/sbin/policy-rc.d
+CMD ["/start.sh"]
+
+EXPOSE 3306
+
+```
+
+
+
+
+![image](https://user-images.githubusercontent.com/73367284/158699415-c539e7c3-3f09-4921-a8f7-691ff219fa6e.png)
+
+
+
+
+
  -------
  
 #### Install the Tanzu CLI 
