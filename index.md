@@ -192,6 +192,16 @@ EXPOSE 3306
 ![image](https://user-images.githubusercontent.com/73367284/158702065-c94d26cf-4ba9-4eb8-82ad-01d2f733fab6.png)
 
 <br/>
+<br/>
+<br/>
+
+## Multi-Tenancy with Tanzu Application Service 
+
+![image](https://user-images.githubusercontent.com/73367284/158702439-fed2501d-b063-43f4-b87a-0cfb4c368b0c.png)
+
+<br/>
+<br/>
+<br/>
 
  -------
  
