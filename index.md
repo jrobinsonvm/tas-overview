@@ -78,7 +78,7 @@ VMware Tanzu Application Service is a modern application platform for enterprise
 
 
 ###  1. It's a good starting point for most
-###  2. Descriptive file specification (YAML)
+###  2. Descriptive file specification 
 ###  3. It's pretty flexible
 
 <br/>
