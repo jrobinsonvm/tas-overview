@@ -212,6 +212,7 @@ EXPOSE 3306
 <br/>
 
 ## How does this differ from Cloud Foundry?
+
 ![image](https://user-images.githubusercontent.com/73367284/158703228-bcf8733a-6c78-40ae-85ce-a21fafddd1d9.png)
 
 
@@ -229,7 +230,9 @@ EXPOSE 3306
 <br/>
 <br/>
 
+
 ## Application Autoscaler  
+
 <img width="794" alt="image" src="https://user-images.githubusercontent.com/73367284/158706724-64b6ca64-7f0a-43f9-b8ea-aa4642a773e4.png">
 
 <br/>
